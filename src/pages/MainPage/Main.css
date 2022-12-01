@@ -1,0 +1,70 @@
+.avatar {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  width: 80%;
+  aspect-ratio: 1;
+  margin-top: 90px;
+}
+
+h2 {
+  font-style: italic;
+  padding: 1%;
+  color: black;
+  font-size: 2em;
+}
+
+.content .p1 {
+  margin: 15;
+  padding: 1%;
+  font-size: large;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1.5px; 
+}
+
+.content .p2 {
+  margin: 15;
+  padding: 1%;
+  font-size: large;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 15px;
+  padding: 0;
+  color: black;
+  font-size: 2em;
+}
+
+.content .p3 {
+  font-size: large;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+.content .p4 {
+  font-size: large;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+.about_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: "100%";
+}
+
+@media (min-width: 800px) {
+  .avatar {
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+}

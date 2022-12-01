@@ -1,0 +1,30 @@
+.header-style {
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-bottom-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header-style h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+@Media (max-width: 580px) {
+    .header-style {
+        border-bottom-left-radius: 15vw;
+        border-bottom-right-radius: 15vw;
+        padding: 1.5rem 0;
+    }
+
+    .header-style h1 {
+        font-size: 1.8rem;
+    }
+}
