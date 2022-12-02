@@ -16,4 +16,4 @@ This command launches an instance of my app on port 3000.
  
 ## Live Demo
 
-(Click to view my portfolio)[https://tourmaline-bavarois-7506ae.netlify.app]
+[Click to view my portfolio](https://tourmaline-bavarois-7506ae.netlify.app)
